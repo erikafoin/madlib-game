@@ -5,15 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <<script src="app.js"></script>
 </head>
+
+
 <body>
-    <h1>Wacky MadLib</h1>
-    <body>
-        Once upon a time there was a <span id="mammal"></span> that loved <span id="noun-1"></span>. All day long she searched <span id="place"></span> for more <span id="noun-1"></span> but there were just never enough for her <span id="adjective-1"></span>
+    
+    <label>
+        Mammal:
+        <input id="mammal-input">
         <br>
-        After a long time of <span id="adverb"></span> around <span id="place"></span>, the <span id="adjective-2"></span> <span id="mammal"></span> was <span id="emotion"></span>. So she threw herself off a <span id="geological-formation"></span> and perished. 
+    </label>
+    <label>
+        Noun:
+        <input id="noun-1-input">
+    </label> 
+    <label>
+        Place:
+        <input id="place-input">
+    </label>
+    <label>
+        Adjective:
+        <input id="adjective-1-input">
+    </label>
+    <label>
+        Adverb:
+        <input id="adverb-input">
+    </label>
+    <label>
+        Adjective:
+        <input id="adjective-2-input">
+    </label>
+    <label>
+        Emotion:
+        <input id="emotion-input">
+    </label>
+    <label>
+        Geological Formation:
+        <input id="geological-formation-input">
+    </label>
+    
+    <h1>Wacky MadLib</h1>
+    
+    <article>
+        Once upon a time there was a <span id="mammalSpan"></span> that loved <span id="noun1Span"></span>. All day long she searched <span id="placeSpan"></span> for more <span id="noun1Span"></span> but there were just never enough for her <span id="adjective1Span"></span>
+        <br>
+        After a long time of <span id="adverbSpan"></span> around <span id="placeSpan"></span>, the <span id="adjective2Span"></span> <span id="mammal"></span> was <span id="emotionSpan"></span>. So she threw herself off a <span id="geologicalFormationSpan"></span> and perished. 
         <br>
         The end.
+    </article>
     </body>
     <p>
         <Button onclick="executeMadLib()">Make My Mad Lib!</Button>
