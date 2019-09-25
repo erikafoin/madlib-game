@@ -43,12 +43,12 @@ function executeMadLib() {
     const geologicalFormationInputValue = geologicalFormationInput.value;
     const geologicalFormationSpan = document.getElementById('geologicalFormationSpan');
     geologicalFormationSpan.textContent = geologicalFormationInputValue; 
-}
+
 
 
 const showStory = document.getElementById('story');
 showStory.classList.remove('hidden');
-
+}
 //function handleKeyPress() (
 //    const nameInput = document.getElementById('name-input');
 //   const name = nameInput.Value;
