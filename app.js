@@ -46,8 +46,8 @@ function executeMadLib() {
 
 
 
-const showStory = document.getElementById('story');
-showStory.classList.remove('hidden');
+    const showStory = document.getElementById('story');
+    showStory.classList.remove('hidden');
 }
 //function handleKeyPress() (
 //    const nameInput = document.getElementById('name-input');
